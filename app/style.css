@@ -1,0 +1,62 @@
+#map {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  :root{
+    --main: #fff;
+    --accent: royalblue;
+    --text: #555;
+    --link: royalblue;
+  }
+  
+    .leaflet-control-layers-expanded{
+      background-color: var(--main);
+      color: var(--text);
+      margin: 5px;
+    }
+  
+    .leaflet-bar{
+      background-color: var(--main);
+      color: var(--text);
+    }
+  
+    .leaflet-touch .leaflet-bar a {
+      background-color: var(--main);
+      color: var(--text); }
+  
+  .title{
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .link{
+    color: var(--link);
+    cursor: pointer;
+  }
+  
+  .info{
+    color: var(--text);
+  }
+  
+  .leaflet-container a{
+    color: var(--link);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .leaflet-touch .leaflet-control-attribution {
+    background-color: var(--main);
+    color: var(--text);
+  }
+  
+  .leaflet-touch .leaflet-control-attribution a {
+    color: var(--text);
+  }
+
+img.huechange {
+  filter: hue-rotate(120deg);
+}
